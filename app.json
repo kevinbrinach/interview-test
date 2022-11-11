@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "AF Servers",
+    "description" : "App to test AF Servers in Simple Solutions",
+    "slug": "af-servers",
+    "privacy" : "unlisted",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.simplesolutions.afservers",
+      "adaptiveIcon": {
+        "backgroundImage": "./assets/icon.png",
+        "backgroundColor" : "#ffffff"
+      }
+      
+    }
+  }
+}
